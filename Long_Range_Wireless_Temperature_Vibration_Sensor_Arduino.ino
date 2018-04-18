@@ -1,4 +1,4 @@
-///this code is written and tested for ncd.io IoT Long Range Wireless Proximity Light with arduino due
+///this code is written and tested for ncd.io IoT Long Range Wireless Vibration Temperature with arduino due
 ///sensor data structure can be found here https://store.ncd.io/product/long-range-iot-wireless-vibration-temperature-sensor/
 /// sensor can be found here https://ncd.io/long-range-iot-wireless-vibration-sensor-product-manual/
 
