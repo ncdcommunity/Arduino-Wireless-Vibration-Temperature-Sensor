@@ -3,7 +3,7 @@
 /// sensor can be found here https://ncd.io/long-range-iot-wireless-vibration-sensor-product-manual/
 
 #include <HardwareSerial.h>
-HardwareSerial Serial1(1); // use uart2
+//HardwareSerial Serial1(1); // use uart2
   uint8_t data[54];
   int k = 10;
   int i;
@@ -11,8 +11,9 @@ void setup()
 {
   Serial1.begin(115200, SERIAL_8N1, 16, 17); // pins 16 rx2, 17 tx2, 19200 bps, 8 bits no parity 1 stop bit​
   Serial.begin(9600);
-  Serial.println("ncd.io IoT Arduino 3 Channel Temperature sensor");
+  Serial.println("ncd.io IoT ESP32 Vibration Temperature sensor");
 }
+
 
 void loop()
 {
